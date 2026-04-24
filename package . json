@@ -2,12 +2,17 @@
   "name": "faculty-planner",
   "version": "1.0.0",
   "scripts": {
-    "build": "vite build && tsc",
-    "start": "node dist/server.js"
+    "build": "vite build",
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
     "better-sqlite3": "^9.4.3",
     "@google/genai": "^0.1.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "typescript": "^5.0.0",
+    "@vitejs/plugin-react": "^4.0.0"
   }
 }

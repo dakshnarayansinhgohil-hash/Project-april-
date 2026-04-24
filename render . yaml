@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: project-april
+    runtime: node
+    buildCommand: npm install && npm run build
+    startCommand: node server.js
+    rootDir: .

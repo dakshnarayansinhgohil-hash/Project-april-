@@ -1,0 +1,13 @@
+{
+  "name": "faculty-planner",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "vite build && tsc",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "better-sqlite3": "^9.4.3",
+    "@google/genai": "^0.1.0"
+  }
+}
